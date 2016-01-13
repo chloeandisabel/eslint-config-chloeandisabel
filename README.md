@@ -1,4 +1,4 @@
-# eslint-config-chloeandisabel [![npm module](https://img.shields.io/npm/v/eslint-config-chloeandisabel.svg)](https://www.npmjs.com/package/chloeandisabel-js)
+# eslint-config-chloeandisabel [![npm module](https://img.shields.io/npm/v/eslint-config-chloeandisabel.svg)](https://www.npmjs.com/package/eslint-config-chloeandisabel) [![Circle CI](https://circleci.com/gh/chloeandisabel/eslint-config-chloeandisabel.svg?style=shield)](https://circleci.com/gh/chloeandisabel/eslint-config-chloeandisabel)
 
 Shared `eslint` configuration for Chloe and Isabel projects.
 

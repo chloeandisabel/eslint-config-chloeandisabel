@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-chloeandisabel",
+  "name": "@chloeandisabel/eslint-config-chloeandisabel",
   "version": "1.0.0",
   "description": "Shared eslint configuration for Chloe and Isabel projects",
   "main": "dist/index.js",
