@@ -1,4 +1,4 @@
-# eslint-config-chloeandisabel [![npm module](https://img.shields.io/npm/v/eslint-config-chloeandisabel.svg)](https://www.npmjs.com/package/eslint-config-chloeandisabel) [![Circle CI](https://circleci.com/gh/chloeandisabel/eslint-config-chloeandisabel.svg?style=shield)](https://circleci.com/gh/chloeandisabel/eslint-config-chloeandisabel)
+# eslint-config-chloeandisabel [![npm version](https://badge.fury.io/js/%40chloeandisabel%2Feslint-config-chloeandisabel.svg)](https://badge.fury.io/js/%40chloeandisabel%2Feslint-config-chloeandisabel) [![Circle CI](https://circleci.com/gh/chloeandisabel/eslint-config-chloeandisabel.svg?style=shield)](https://circleci.com/gh/chloeandisabel/eslint-config-chloeandisabel)
 
 Shared `eslint` configuration for Chloe and Isabel projects.
 
@@ -8,7 +8,7 @@ Create an `.eslintrc` file in your project and include this package in the `exte
 
 ```json
 {
-  "extends": "eslint-config-chloeandisabel"
+  "extends": "@chloeandisabel/eslint-config-chloeandisabel"
 }
 ```
 
@@ -16,7 +16,7 @@ For project-specific configurations, use the following format:
 
 ```json
 {
-  "extends": "eslint-config-chloeandisabel/dist/react"
+  "extends": "@chloeandisabel/eslint-config-chloeandisabel/dist/react"
 }
 ```
 
