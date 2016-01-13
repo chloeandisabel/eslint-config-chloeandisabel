@@ -1,4 +1,4 @@
-# eslint-config-chloeandisabel [![npm version](https://badge.fury.io/js/%40chloeandisabel%2Feslint-config-chloeandisabel.svg)](https://badge.fury.io/js/%40chloeandisabel%2Feslint-config-chloeandisabel) [![Circle CI](https://circleci.com/gh/chloeandisabel/eslint-config-chloeandisabel.svg?style=shield)](https://circleci.com/gh/chloeandisabel/eslint-config-chloeandisabel)
+# eslint-config-chloeandisabel [![Build Status](https://travis-ci.org/chloeandisabel/eslint-config-chloeandisabel.svg)](https://travis-ci.org/chloeandisabel/eslint-config-chloeandisabel) [![npm version](https://badge.fury.io/js/%40chloeandisabel%2Feslint-config-chloeandisabel.svg)](https://badge.fury.io/js/%40chloeandisabel%2Feslint-config-chloeandisabel)
 
 Shared `eslint` configuration for Chloe and Isabel projects.
 
