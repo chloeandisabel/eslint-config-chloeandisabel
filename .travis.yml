@@ -28,6 +28,6 @@ deploy:
     secure: UsYYjqAcx4GJ2ozCV1sAUxvOpiAQ7PVq521nGbUE9W4eKiTt/YIynY6tlTj2jUC9qxI+Y8TuEuEdlU0+FMPVlUnh8lPibsip8BqxzyTK3etc8ZQLo+D9yB9VxDJ/83C03JcburjTJ0FucJT2Tjmb2CjNTFtuo65sURxKvQMbdqxU8eSO4RW2eRjBn5WtuBVnJ4AXJgUC5VRGIQLVbKo3uq6mnxjaiqbggar9AjC0vems12+CGAXUIewzgwLD6QALzIpnUqzgBC/SW/IMzGCheaMeJCSsiZ4B6HowDjqi7HEDL9LrHG0uCnp6c+M9BYi1Uwi0/q7VDOr8hkwMKxKDlvDfStr2PDXnDiNkewinzZBjAsaBUHlbXibENI8ClNWPYFFFTr6rBZ187lBREg5/KL0H8sROG0zlaC5hF78SjsD4zsp3JAEAZ0eA8jM/7kHu2xW5EUz8BsQG4DB76tgs3lIXgmdV7oGvmPuzaCaSiBMcYxCvMhbQNj5+9pB/M6s1SnkpYSH/AYXtvG4DLtR/WLx1GBhixKt+7nkFcrNO4EExuw7K3Vnc9uzMogKJm/OMtpbXbLSFTApd6iHtxiREl0U3UFQmoMpNj3iwyosy3Ld96NqoTlr+MOfHSd+sXWYFqrn15dsTBEsTtaso99NuQt5Os4A6wQ5nn+nSIPY+Xi0=
   on:
     tags: true
-    repo: chloeandisabel/eslint-config-chloeandisaebl
+    repo: chloeandisabel/eslint-config-chloeandisabel
     branch: master
     condition: "$BUILD_LEADER$BUILD_AGGREGATE_STATUS = YESothers_succeeded"
