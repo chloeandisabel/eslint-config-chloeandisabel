@@ -1,0 +1,44 @@
+{
+  "name": "eslint-config-chloeandisabel",
+  "version": "1.0.0",
+  "description": "Shared eslint configuration for Chloe and Isabel projects",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "./dist"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "prepublish": ". ./resources/prepublish.sh",
+    "test": "npm run lint",
+    "lint": "eslint src",
+    "build": "rm -rf dist/* && which babel && babel src --out-dir dist && node -e \"console.log(JSON.stringify(require('./dist/index').default, ' ', 2))\" > dist/index.eslintrc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chloeandisabel/eslint-config-chloeandisabel.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Jacob Gillespie <jacob.gillespie@chloeandisabel.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chloeandisabel/eslint-config-chloeandisabel/issues"
+  },
+  "homepage": "https://github.com/chloeandisabel/eslint-config-chloeandisabel#readme",
+  "devDependencies": {
+    "babel": "^6.3.26",
+    "babel-cli": "^6.4.0",
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^3.1.0",
+    "eslint-plugin-babel": "^3.0.0",
+    "eslint-plugin-react": "^3.15.0"
+  }
+}
